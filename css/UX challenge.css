@@ -1,0 +1,174 @@
+body,div{
+	margin: 0;
+	padding: 0;
+	font-family: apple-system,BlinkMacSystemFont,"San Francisco";
+	color:#6624d2;
+	font-size: 15px;
+}
+p{	
+	font-weight: bold;
+	font-style: italic;
+	font-size: 15px;
+}
+span{
+	color: red;
+	font-weight: bold;
+	font-family: apple-system,BlinkMacSystemFont,"San Francisco";
+}
+h1{
+	color: #f4ecff;
+	font-weight: bold;
+	font-family: apple-system,BlinkMacSystemFont,"San Francisco";
+}
+ul li{
+	list-style-type: none;
+	margin-left: -40px;
+	padding: 0;
+}
+h2{
+	color: #f4ecff;
+	font-size: 25px;
+	font-family: apple-system,BlinkMacSystemFont,"San Francisco";
+}
+#span1{
+	color: #6624d2;
+	font-weight: bold;
+	font-family: apple-system,BlinkMacSystemFont,"San Francisco";
+}
+#span2{
+	color: #f4ecff;
+	font-size: 15px;
+}
+.center{
+	width: 100%;
+	height: 900px;
+	/*border: 1px solid black;*/
+}
+.left{	
+	width: 50%;
+	height: 900px;
+	/*border: 1px solid black;*/
+	float: left;
+	background: linear-gradient(45deg,#f4ecff,#caaef2);
+}
+.left-signin{
+	display: none;	
+	width: 50%;
+	height: 900px;
+	/*border: 1px solid black;*/
+	float: left;
+	background: linear-gradient(135deg,#6624d2,#8456ff);
+}
+.right{
+	width: 50%;
+	height: 900px;
+	/*border: 1px solid black;*/
+	float: left;
+	background: linear-gradient(45deg,#8456ff,#6624d2);
+}
+.login{
+	/*border: 1px solid black;*/
+	width: 50%;
+	height: 220px;
+	text-align: center;
+	display: inline-block;
+	margin: 25% 25%;
+}
+#msgBox{
+	padding:5px;
+	color: red;
+	font-size: 12px;
+	text-align: center;
+	margin:0 12%;
+	/*border: 1px solid black;*/
+	width: 55%;
+	height: 40px;
+}
+.pattern{
+	/*border: 1px solid yellow;*/
+	width: 250px;
+	height: 400px;
+	float: left;
+	text-align: center;
+	display: inline-block;
+	margin: 25% 30%;
+}
+.checkbox{
+	text-align: center;
+	/*border: 1px solid black;*/
+	width: 50%;
+	height: 20px;
+	margin: -10% 25%;
+}
+.links{
+	text-align: center;
+	/*border: 1px solid black;*/
+	width: 50%;
+	height: 100px;
+	margin: 25% 25%;
+
+}
+.imglink{
+	border-radius: 50%;
+	height: 20px;
+	width: 20px;
+	background-color: #caaef2;
+	margin:0 20px;
+}
+.logo{
+	border-radius: 5px;
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 2px solid #8456ff;
+	margin: 0 auto;
+}
+.word{
+	position: relative;
+	width: 50%;
+	height: 120px;
+	text-align: center;
+	margin: 30% 25%;
+	
+}
+.signout{
+	width: 25%;
+	height: 50px;
+	text-align: center;
+	margin: 30% 37.5%;
+
+}
+#button2{
+	font-size: 15px;
+	color: #6624d2;
+	padding:5px 45px;
+	background-color: white;
+	border-radius: 16px;
+	margin: 4px 2px;
+	border: none;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)
+	
+}
+::placeholder{
+	color:#caaef2;
+	font-weight: bold;
+	font-family: font-family: apple-system,BlinkMacSystemFont,"San Francisco";
+	text-align: center;
+}
+input[type=text],[type=password]{
+	text-align: center;
+	border-radius: 5px;
+	height: 50px;
+	width: 70%;
+	margin: 0 auto;
+}
+#button1{
+	border-radius: 5px;
+	height: 51px;
+	width: 72%;
+	margin: 0 auto;
+	background-color: #8456ff;
+	color: #caaef2;
+	font-weight: bold;
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1)
+}
